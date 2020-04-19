@@ -3,7 +3,7 @@
 getData();
 async function getData() {
     const postStream = await fetch(
-        'https://corona.lmao.ninja/states');
+        'https://corona.lmao.ninja/v2/states');
     const posts = await postStream.json();
 
 
